@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/details_motion_layout"
+    app:layoutDescription="@xml/activity_topic_details_scene"
+    tools:context=".TopicDetailsActivity">
+
+    <ImageView
+        android:id="@+id/detail_load_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/android_logo"
+        android:contentDescription="@string/icon_description"/>
+
+    <TextView
+        android:id="@+id/detail_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/detail_load_icon"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/detail_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/detail_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/detail_load_icon"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/detail_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/detail_load_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:alpha="0" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

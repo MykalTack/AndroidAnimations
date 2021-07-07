@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Compose Animations</string>
+    <string name="title_activity_topic_detail">TopicDetailActivity</string>
+</resources>

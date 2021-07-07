@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Animations</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="new_topic_description">Add new topic</string>
+    <string name="icon_description">Icon representing the platform</string>
+</resources>

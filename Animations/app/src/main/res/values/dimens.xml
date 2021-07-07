@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="topic_list_item_horiz_side">24dp</dimen>
+    <dimen name="topic_list_item_vert_side">12dp</dimen>
+</resources>
